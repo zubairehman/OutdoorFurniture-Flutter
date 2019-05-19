@@ -1,9 +1,9 @@
-# todo_app
+# Outdoor Furniture
 
 A simple furniture page developed in flutter 
 
-#Demo
+# Demo
 
 <p>
-  <img src="screenshots/outdoor-furnitur.png" width="350">
+  <img src="screenshots/outdoor-furnitur.png" width="1000">
 </p>
