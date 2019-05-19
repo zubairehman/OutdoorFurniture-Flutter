@@ -1,4 +1,9 @@
-An absolute bare-bones web app.
+# todo_app
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+A simple furniture page developed in flutter 
+
+#Demo
+
+<p>
+  <img src="screenshots/outdoor-furnitur.png" width="350">
+</p>
