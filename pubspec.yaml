@@ -1,0 +1,47 @@
+name: outdoor_furniture
+description: An absolute bare-bones web app.
+# version: 1.0.0
+#homepage: https://www.example.com
+#author: zubairehman <zr@embrace-it.com>
+
+environment:
+  sdk: '>=2.2.0 <3.0.0'
+
+dependencies:
+  flutter_web: any
+  flutter_web_ui: any
+
+dev_dependencies:
+  # Enables the `pub run build_runner` command
+  build_runner: ^1.1.2
+  # Includes the JavaScript compilers
+  build_web_compilers: ^1.0.0
+
+# flutter_web packages are not published to pub.dartlang.org
+# These overrides tell the package tools to get them from GitHub
+dependency_overrides:
+  flutter_web:
+    git:
+      url: https://github.com/flutter/flutter_web
+      path: packages/flutter_web
+  flutter_web_ui:
+    git:
+      url: https://github.com/flutter/flutter_web
+      path: packages/flutter_web_ui
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+#  assets:
+#  - assets/images/
+#  - assets/fonts/
+#
+#  fonts:
+#  - family: ProductSans
+#    fonts:
+#    - asset: assets/fonts/Product-Sans-Regular.ttf
+#    - asset: assets/fonts/Product-Sans-Italic.ttf
+#      style: italic
+#    - asset: assets/fonts/Product-Sans-Bold.ttf
+#      weight: 700
